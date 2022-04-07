@@ -1,0 +1,70 @@
+section {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: relative;
+}
+.card__head {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 18rem;
+}
+.card__head h1 {
+  font-variant: small-caps;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  color: red;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: red;
+  margin: 5rem 0;
+  height: 10rem;
+  padding: 3rem;
+}
+#card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 20rem;
+  height: 20rem;
+}
+#card img {
+  width: 100%;
+  border-radius: 4rem 0 0 0;
+  object-fit: cover;
+}
+#card .name__prce {
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  padding: 0.2rem;
+  border-radius: 0 0 4rem 0;
+  color: white;
+}
+.details {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.detail__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  border: 0.2rem solid red;
+  width: 13rem;
+  height: 8rem;
+}
+.detail__info h2 {
+  color: red;
+}

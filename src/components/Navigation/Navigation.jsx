@@ -18,16 +18,16 @@ const Navigation = () => {
                 <div className="sides left__nav">
                     <ul>
                         <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#About">ABOUT</a></li>
+                        <li><a href="#Services">SERVICES</a></li>
                     </ul>
                 </div>
-                <img src={logo} alt="" />
+                <a href="#"><img src={logo} alt="" /></a>
                 <div className="sides right__nav">
                     <ul>
-                        <li><a href="#">BRANCES</a></li>
-                        <li><a href="#">ROOMS</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#Branches">BRANCES</a></li>
+                        <li><a href="#Rooms">ROOMS</a></li>
+                        <li><a href="#Contact">CONTACT</a></li>
                     </ul>
                 </div>
 

@@ -1,0 +1,32 @@
+.slider {
+  margin-top: 8rem;
+}
+.bio {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bio p {
+  color: red;
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 5px 15px;
+  font-variant: small-caps;
+  transform: translateX(100%);
+  white-space: nowrap;
+}
+.text-moving {
+  animation: moveText linear 30s forwards infinite;
+}
+
+@keyframes moveText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-150%);
+  }
+}
