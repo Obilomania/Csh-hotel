@@ -1,8 +1,15 @@
 import React from 'react'
+import BootCarousel from './BootCarousel'
+import Navigation from '../Navigation/Navigation'
+import Content from './Content'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='header__container'>
+      <Navigation />
+      <BootCarousel />
+      <Content />
+    </div>
   )
 }
 
